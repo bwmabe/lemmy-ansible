@@ -77,6 +77,8 @@
 
     - name: Install Docker Module and docker-compose for Python
       pip:
+        virtualenv: /home/lemmy/venv
+        virtualenv_python: python3.11
         name:
           - docker
           - docker-compose
