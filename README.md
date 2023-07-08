@@ -2,6 +2,11 @@
 
 This provides an easy way to install [Lemmy](https://github.com/LemmyNet/lemmy) on any server. It automatically sets up an nginx server, letsencrypt certificates, and email.
 
+## What This Fork Is
+
+This is my own fork of the `lemmy-ansible` repo that has Python `venv` support added because the default Ansible playbook does not work for my installation. 
+It's in my own repo so that I can keep it up-to-date with upstream.
+
 ## Requirements
 
 To run this ansible playbook, you need to:
